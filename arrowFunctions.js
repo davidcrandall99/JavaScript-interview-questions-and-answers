@@ -12,7 +12,7 @@ let secondObject = {
     name: 'David',
     age: '31',
     introduction: () => {
-        return `Hello, my name is ${name}, and I am ${age} years old`;
+        return `Hello, my name is ${this.name}, and I am ${this.age} years old`;
     }
 }
 
