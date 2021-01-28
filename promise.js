@@ -1,3 +1,4 @@
+//Promises are functions that will resolve or 'throw' an error, or reject. Promises can be used in place of async functions when dealing with legacy runtime environments (like old browsers)
 //the following function calculates 'n'. if 'n' is 3, it will return the number. if it is not 3, it will return nothing.
 
 let x = new Promise((resolve, reject) => {

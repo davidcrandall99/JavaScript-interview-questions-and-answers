@@ -6,7 +6,7 @@ const constobj = [1, 2, 3];
 (function(){
     varnumb = 2; //references parent scope, unless the variable is redefined within the scope.
     
-    letnumb = 3 //ok, defined in parent scope, just ass before
+    letnumb = 3 //ok, defined in parent scope, just as before
     
     //let varnumb = 5 //references current scope, will cause error due to the same-scope call to the variable prior to defining.
     

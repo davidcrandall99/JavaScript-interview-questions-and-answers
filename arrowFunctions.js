@@ -1,3 +1,10 @@
+//ARROW FUNCTIONS
+/*
+
+Arrow functions are a ES6 syntaxual way of writing functions. They work much the same as a regular function, except in some key areas. One of the most common 'gotchas' is that arrow functions do not have access to 'this' within methods
+
+*/
+
 let firstObject = {
     name: 'David',
     age: '31',

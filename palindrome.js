@@ -1,3 +1,14 @@
+//THE PALINDROME
+
+/*
+
+One of the most common javascript exercises is the 'palindrom detector' - write a function that detects if the string argument passed is a palindrome.
+Below is an example of how to do it without creating arrays, loops, or dealing with recursiveness.
+
+Remember, this is just 1 way to do it, but is very quick/clean/simple to work through
+
+*/
+
 let palindrome = x => {
 
     //conversts x to string, in case a number is passed. If using TS or with a conditional statement, this can be validated more strictly
